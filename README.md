@@ -3,8 +3,8 @@
 ### Carrera de [Nombre de la Carrera]  
 
 **Asignatura:** Manejo y Configuración de Software  
-**Nombre del Estudiante:** ___________________________  
-**Fecha:** ___________________  
+**Nombre del Estudiante:** Manolo Garcia
+**Fecha:** 08/04/2026 
 
 ---
 
@@ -24,9 +24,9 @@
 
 **Explicar la diferencia entre los siguientes conceptos/comandos en Git y GitHub:**
 
-- `git clone`  
-- `fork`  
-- `git pull`
+- `git clone` Copia un repositorio remoto a un directorio local para trabajar en él.  
+- `fork`  Crea una copia de un repositorio en tu propia cuenta de GitHub (nivel servidor).
+- `git pull` Actualiza tu repositorio local con los últimos cambios del servidor remoto.
 
 ### Parte práctica:
 
@@ -40,7 +40,33 @@
 
 **📝 Respuesta:**
 
-<!-- Escribe aquí tu respuesta a la Pregunta 1 -->
+- `git clone` Copia un repositorio remoto a un directorio local para trabajar en él.   
+- `fork`  Crea una copia de un repositorio en tu propia cuenta de GitHub (nivel servidor).
+- `git pull` Actualiza tu repositorio local con los últimos cambios del servidor remoto.
+
+
+
+**Respuesta:**
+
+* **¿Cómo se realizó el fork?**
+  Se accedió al repositorio original de `santiagojara/EVALUACION_1P` en GitHub y se presionó el botón "Fork" ubicado en la esquina superior derecha, seleccionando mi cuenta personal `Garcia2501` como destino para crear la copia independiente.
+
+  Aquí presento la evidencia de la configuración de mis repositorios remotos, lo cual demuestra que realicé el **fork** correctamente a mi cuenta personal y que estoy trabajando sobre ese clone.
+
+![Verificación de Remotos](images/evidencia_fork.png)
+
+* **¿Cómo se realizó el clone del fork?**
+  Una vez creado el fork en mi perfil, copié la URL de mi repositorio (`https://github.com/Garcia2501/EVALUACION_1P.git`) y en la Git Bash utilicé el comando `git clone` seguido de dicha URL para descargar los archivos localmente en mi WorkSpace.
+
+* **¿Cómo se verificó que se estaba trabajando sobre el fork y no sobre el repositorio original?**
+  Se utilizó el comando `git remote -v` en la terminal. La salida confirmó que el remoto denominado `origin` apunta a mi usuario (`Garcia2501`) y no al repositorio del docente, asegurando que tengo permisos de escritura sobre este repositorio.
+
+![Evidencia de Configuración](images/evidencia_fork.png)
+
+También se ha creado la estructura de carpetas requerida por el examen.
+
+![Estructura del Proyecto](images/estructura.png)
+
 
 ---
 
