@@ -89,7 +89,22 @@ También se ha creado la estructura de carpetas requerida por el examen.
 
 **📝 Respuesta:**
 
-<!-- Escribe aquí tu explicación y evidencia para la Pregunta 2 -->
+**Respuesta:**
+
+El archivo `.gitignore` es una herramienta esencial en Git que permite filtrar qué archivos o directorios no deben ser rastreados ni subidos al repositorio remoto. Esto ayuda a mantener el proyecto limpio de archivos temporales, configuraciones locales o logs de errores.
+
+#### 1. Configuración inicial
+Se creó el archivo `.gitignore` en la raíz del proyecto con las siguientes reglas:
+- `*.log`: Ignora todos los archivos con extensión de registro.
+- `temp/`: Excluye la carpeta completa de archivos temporales.
+- `doc/*.md` y `doc/*.txt`: Filtra archivos de texto y markdown específicamente dentro de la carpeta doc.
+
+![Configuración de Gitignore](images/evidencia_p2_config.png) (images/evidencia2_p2_config.png)
+
+#### 2. Validación de exclusiones
+Para probar las reglas, se crearon archivos que coinciden con los patrones (como `error.log` y carpetas `temp/`). Al ejecutar `git status`, se verificó que Git ignora estos elementos y solo detecta aquellos permitidos, como `archivo_valido.txt`.
+
+![Prueba de archivos ignorados](images/evidencia_p2_creacionarchivos.png)(images/evidencia_p2_status.png)
 
 ---
 
