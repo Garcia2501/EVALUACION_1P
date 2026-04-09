@@ -99,12 +99,15 @@ Se creó el archivo `.gitignore` en la raíz del proyecto con las siguientes reg
 - `temp/`: Excluye la carpeta completa de archivos temporales.
 - `doc/*.md` y `doc/*.txt`: Filtra archivos de texto y markdown específicamente dentro de la carpeta doc.
 
-![Configuración de Gitignore](images/evidencia_p2_config.png) (images/evidencia2_p2_config.png)
+![Configuración de Gitignore](images/evidencia_p2_config.png) 
+![Contenido del Gitignore](images/evidencia2_p2_config.png)
 
 #### 2. Validación de exclusiones
 Para probar las reglas, se crearon archivos que coinciden con los patrones (como `error.log` y carpetas `temp/`). Al ejecutar `git status`, se verificó que Git ignora estos elementos y solo detecta aquellos permitidos, como `archivo_valido.txt`.
+Con esto se demuetsra la validacion del archivo .gitignore
 
-![Prueba de archivos ignorados](images/evidencia_p2_creacionarchivos.png)(images/evidencia_p2_status.png)
+![Prueba de archivos ignorados](images/evidencia_p2_creacionarchivos.png)(
+  ![Resultado del Git status](images/evidencia_p2_status.png)
 
 ---
 
