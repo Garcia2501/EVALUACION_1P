@@ -189,6 +189,8 @@ Es una petición para integrar cambios de una rama (en este caso develop) a otra
 Asegura la calidad del código, evita que errores lleguen a producción y fomenta el aprendizaje compartido en el equipo.
 - ¿Qué tipo de observaciones o validaciones se suelen realizar durante la revisión de un Pull Request?
 Se debe verificar la lógica del negocio, que no existan archivos innecesarios, que el código siga los estándares de estilo y que todas las pruebas pasen correctamente.
+![Pull request en GitHub](images/evidencia_pr.png)
+![COmmit despues del pull request revisado](images/evidencia_prCorregido.png)
 ---
 
 ## Pregunta 5 (2 puntos)
