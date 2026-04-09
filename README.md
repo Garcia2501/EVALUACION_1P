@@ -137,7 +137,23 @@ Con esto se demuetsra la validacion del archivo .gitignore
 
 **📝 Respuesta:**
 
-<!-- Escribe aquí tu respuesta completa a la Pregunta 3 -->
+**Respuesta:**
+
+#### Comandos utilizados:
+1. `git flow init`: Para inicializar la estructura de ramas.
+2. `git flow feature start ingresar-encabezado`: Creación de la rama de funcionalidad.
+3. `git add .` y `git commit`: Registro de los cambios.
+4. `git flow feature finish ingresar-encabezado`: Fusión de la funcionalidad en la rama develop.
+
+#### Proceso seguido:
+Se inicializó Git Flow para estandarizar el ciclo de vida del desarrollo. Se creó una rama de característica (feature) para trabajar de forma aislada sin afectar la rama principal. Tras completar los datos personales, se cerró la rama, lo que automáticamente realizó el merge hacia `develop` y eliminó la rama temporal.
+
+#### Reflexión sobre Git Flow:
+Git Flow ofrece una estructura clara y predecible para equipos grandes. Permite trabajar en múltiples funcionalidades en paralelo (features), corregir errores urgentes (hotfixes) y preparar lanzamientos (releases) de forma organizada, garantizando que la rama `main` siempre contenga código estable y listo para producción.
+
+![Inicialización de Git Flow](images/gitflow_init.png)
+![Flujo de trabajo en Git Flow](images/ingresar-encabezado.png)
+![Flujo de Trabajo Terminado](images/gitflow_final.png)
 
 ---
 
