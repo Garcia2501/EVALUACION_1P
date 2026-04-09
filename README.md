@@ -3,8 +3,8 @@
 ### Carrera de [SOFTWARE]  
 
 **Asignatura:** Manejo y Configuración de Software  
-**Nombre del Estudiante:** Manolo Jose Garcia Amores
-**Fecha:** 8 de abril del 2026
+**Nombre del Estudiante:** Manolo Garcia
+**Fecha:** 08/04/2026 
 
 ---
 
@@ -89,7 +89,7 @@ También se ha creado la estructura de carpetas requerida por el examen.
 
 **📝 Respuesta:**
 
-
+**Respuesta:**
 
 El archivo `.gitignore` es una herramienta esencial en Git que permite filtrar qué archivos o directorios no deben ser rastreados ni subidos al repositorio remoto. Esto ayuda a mantener el proyecto limpio de archivos temporales, configuraciones locales o logs de errores.
 
@@ -182,9 +182,13 @@ Git Flow ofrece una estructura clara y predecible para equipos grandes. Permite 
 - El número y enlace al pull request.
 
 **📝 Respuesta:**
+- ¿Qué es un Pull Request y cuál es su función dentro de un flujo de trabajo colaborativo con Git y GitHub?
+Es una petición para integrar cambios de una rama (en este caso develop) a otra rama principal (main). Su función es permitir la revisión del código por parte de otros colaboradores, permitiendo discutir los cambios, proponer mejoras y asegurar que el código sea correcto antes de fusionarlo.
 
-<!-- Escribe aquí tu respuesta completa a la Pregunta 4 -->
-
+- ¿Por qué es importante revisar un Pull Request antes de fusionarlo con la rama principal?
+Asegura la calidad del código, evita que errores lleguen a producción y fomenta el aprendizaje compartido en el equipo.
+- ¿Qué tipo de observaciones o validaciones se suelen realizar durante la revisión de un Pull Request?
+Se debe verificar la lógica del negocio, que no existan archivos innecesarios, que el código siga los estándares de estilo y que todas las pruebas pasen correctamente.
 ---
 
 ## Pregunta 5 (2 puntos)
