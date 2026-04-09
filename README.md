@@ -1,10 +1,10 @@
-# Universidad [Nombre de la Universidad]  
-## Facultad de [Nombre de la Facultad]  
-### Carrera de [Nombre de la Carrera]  
+# Universidad [TECNICA DE AMBATO]  
+## Facultad de [INGENIERIA ELECTRONICA E INDUSTRIAL]  
+### Carrera de [SOFTWARE]  
 
 **Asignatura:** Manejo y Configuración de Software  
-**Nombre del Estudiante:** Manolo Garcia
-**Fecha:** 08/04/2026 
+**Nombre del Estudiante:** Manolo Jose Garcia Amores
+**Fecha:** 8 de abril del 2026
 
 ---
 
